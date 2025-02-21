@@ -1,0 +1,60 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 9,
+  "dynamicBindingPathList": [
+    {
+      "key": "truncateButtonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "textColor"
+    },
+    {
+      "key": "fontSize"
+    },
+    {
+      "key": "fontFamily"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "fontFamily": "Avenir",
+  "fontSize": "16px",
+  "fontStyle": "",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "2z9jtqik5n",
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 9,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 10,
+  "mobileTopRow": 5,
+  "needsErrorInfo": false,
+  "originalBottomRow": 25,
+  "originalTopRow": 21,
+  "overflow": "NONE",
+  "parentColumnSpace": 19.5,
+  "parentId": "78m22fq77o",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 19,
+  "shouldTruncate": false,
+  "text": "Manage and Track Your Operations",
+  "textAlign": "LEFT",
+  "textColor": "#A3A3A3",
+  "topRow": 5,
+  "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "87rifq99m8",
+  "widgetName": "Text2"
+}

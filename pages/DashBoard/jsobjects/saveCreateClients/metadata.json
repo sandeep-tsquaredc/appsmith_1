@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "67b59953ace1172e02cf6a79_a3e7de8a-7add-442e-9d57-7e382be68890",
+  "id": "DashBoard_saveCreateClients",
+  "unpublishedCollection": {
+    "name": "saveCreateClients",
+    "pageId": "DashBoard",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

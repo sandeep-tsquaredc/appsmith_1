@@ -1,0 +1,53 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 16,
+  "boxShadow": "none",
+  "buttonColor": "transparent",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "displayName": "Button",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconAlign": "left",
+  "iconName": "home",
+  "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
+  "isDefaultClickDisabled": true,
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "ea7apjwric",
+  "leftColumn": 0,
+  "onClick": "{{navigateTo('DashBoard', {}, 'SAME_WINDOW');}}",
+  "originalBottomRow": 16,
+  "originalTopRow": 12,
+  "parentColumnSpace": 4.021484375,
+  "parentId": "3rq125fyi2",
+  "parentRowSpace": 10,
+  "placement": "START",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "rightColumn": 44,
+  "searchTags": [
+    "click",
+    "submit"
+  ],
+  "text": "Dashboard",
+  "topRow": 12,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "8yx89iloph",
+  "widgetName": "Button2"
+}
