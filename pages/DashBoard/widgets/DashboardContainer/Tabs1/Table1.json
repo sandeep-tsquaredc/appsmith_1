@@ -41,7 +41,7 @@
     "customColumn2",
     "customColumn3"
   ],
-  "columnUpdatedAt": 1740052597901,
+  "columnUpdatedAt": 1740391973529,
   "columnWidthMap": {
     "_id": 227,
     "customColumn1": 78,
@@ -89,6 +89,12 @@
       "key": "primaryColumns.role.computedValue"
     },
     {
+      "key": "primaryColumns.customColumn3.computedValue"
+    },
+    {
+      "key": "primaryColumns.customColumn3.buttonColor"
+    },
+    {
       "key": "primaryColumns.customColumn3.borderRadius"
     },
     {
@@ -109,7 +115,11 @@
       "key": "textColor"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "primaryColumns.customColumn2.onClick"
+    }
+  ],
   "enableClientSideSearch": true,
   "flexVerticalAlignment": "start",
   "horizontalAlignment": "LEFT",
@@ -235,7 +245,7 @@
       "id": "customColumn2",
       "index": 9,
       "isCellEditable": false,
-      "isCellVisible": true,
+      "isCellVisible": false,
       "isDerived": true,
       "isDisabled": false,
       "isDiscardVisible": true,
@@ -247,6 +257,7 @@
       "menuButtonLabel": "+ Add",
       "menuItemsSource": "STATIC",
       "notation": "standard",
+      "onClick": "{{showModal(AddPropertyDailog.name);}}",
       "originalId": "customColumn2",
       "sourceData": [],
       "sticky": "",
@@ -263,12 +274,12 @@
       "allowSameOptionsInNewRow": true,
       "borderRadius": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
       "boxShadow": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
-      "buttonColor": "#161616",
+      "buttonColor": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.colors.primaryColor)))}}",
       "buttonStyle": "rgb(3, 179, 101)",
       "buttonVariant": "TERTIARY",
       "cellBackground": "",
       "columnType": "iconButton",
-      "computedValue": "",
+      "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( ''))}}",
       "currencyCode": "USD",
       "customAlias": "",
       "decimals": 0,
@@ -291,6 +302,7 @@
       "menuItemsSource": "STATIC",
       "notation": "standard",
       "originalId": "customColumn3",
+      "selectOptions": "",
       "sticky": "",
       "textColor": "",
       "textSize": "0.875rem",

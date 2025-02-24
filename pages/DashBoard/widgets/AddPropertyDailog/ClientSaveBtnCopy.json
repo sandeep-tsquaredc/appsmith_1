@@ -29,8 +29,8 @@
   "mobileRightColumn": 63,
   "mobileTopRow": 18,
   "needsErrorInfo": false,
-  "onClick": "{{saveCreateProperty.saveProperty();}}",
-  "parentId": "yr420kffjv",
+  "onClick": "{{JSObject1.saveProperty();}}",
+  "parentId": "cyj1pokf7c",
   "placement": "CENTER",
   "recaptchaType": "V3",
   "renderMode": "CANVAS",
@@ -41,6 +41,6 @@
   "topRow": 48,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "3guxj2vip3",
-  "widgetName": "ClientSaveBtn"
+  "widgetId": "9fytpxg43f",
+  "widgetName": "ClientSaveBtnCopy"
 }
